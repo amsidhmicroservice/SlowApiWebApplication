@@ -22,7 +22,7 @@ public class InitializeMovieData implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         //movieRepository.deleteAll();
-       // movieRepository.saveAllAndFlush(getMovies());
+        //movieRepository.saveAllAndFlush(getMovies());
         System.out.println("==================================Data Loading is completed===================================");
     }
 
